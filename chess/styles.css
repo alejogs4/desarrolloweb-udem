@@ -1,0 +1,16 @@
+.table {
+    width: 50%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    width: 12.5%;
+    height: 12.5%;
+    text-align: center;
+}
+
+table tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: black;
+    color: white;
+}
